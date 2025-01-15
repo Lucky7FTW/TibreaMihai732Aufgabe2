@@ -2,10 +2,10 @@ import model.Produkt;
 
 import java.util.Scanner;
 
-public class Controller {
-    private final Service service;
+public class ControllerProdukt {
+    private final ServiceProdukt service;
 
-    public Controller(Service service) {
+    public ControllerProdukt(ServiceProdukt service) {
         this.service = service;
     }
 

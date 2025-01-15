@@ -2,10 +2,10 @@ import model.Produkt;
 
 import java.util.List;
 
-public class Service {
+public class ServiceProdukt {
     private Repository<Produkt> produktRepository;
 
-    public Service(Repository<Produkt> produktRepository) {
+    public ServiceProdukt(Repository<Produkt> produktRepository) {
         this.produktRepository = produktRepository;
     }
 
